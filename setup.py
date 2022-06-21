@@ -17,22 +17,22 @@ setup(
   author="GaelicGrime",
   author_email="will.angus.blaylock@gmail.com",
   license="GPLv3",
-  name="multiTimer",
-  url="https://github.com/ComfortableSoftware/commonFunctions_py",
-  version="0.9.3-1",
-  package_dir={"multiTimer": "multiTimer"},
+  name="SparkFunMicroViewFontMaker",
+  url="https://github.com/ComfortableSoftware/MicroViewFontMaker",
+  version="0.1.0",
+  package_dir={"SparkFunMicroViewFontMaker": "SparkFunMicroViewFontMaker"},
   package_data={
-      "multiTimer": [
+      "SparkFunMicroViewFontMaker": [
           "../doc/*",
+          "../fonts/*",
           "../images/*",
       ]
   },
-  packages=["multiTimer"],
+  packages=["SparkFunMicroViewFontMaker"],
   install_requires=[
       "CF",
-      "PySimpleGUI",
   ],
   extras_require={
   },
-  scripts=["scripts/multiTimer"],
+  scripts=["scripts/fontMaker"],
 )
