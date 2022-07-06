@@ -17,18 +17,18 @@ setup(
   author="GaelicGrime",
   author_email="will.angus.blaylock@gmail.com",
   license="GPLv3",
-  name="SparkFunMicroViewFontMaker",
-  url="https://github.com/ComfortableSoftware/MicroViewFontMaker",
+  name="fontmaker",
+  url="https://github.com/ComfortableSoftware/fontmaker",
   version="0.1.0",
-  package_dir={"SparkFunMicroViewFontMaker": "SparkFunMicroViewFontMaker"},
+  package_dir={"fontmaker": "fontmaker"},
   package_data={
-      "SparkFunMicroViewFontMaker": [
+      "fontmaker": [
           "../doc/*",
           "../fonts/*",
           "../images/*",
       ]
   },
-  packages=["SparkFunMicroViewFontMaker"],
+  packages=["fontmaker"],
   install_requires=[
       "CF",
   ],

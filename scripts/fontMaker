@@ -1,7 +1,8 @@
 #!/usr/bin/env /usr/bin/zsh
 
 
-python -m SparkFunMicroViewFontMaker
+# echo "Options passed $@"
+python -m SparkFunMicroViewFontMaker "$@"
 
 
 #
